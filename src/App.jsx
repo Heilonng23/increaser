@@ -52,7 +52,7 @@ function App() {
     setHabMins(updatedHabmins);
     setHabPeriod(updatedHabPeriod);
 
-    if (updatedHabPeriod[index] === 0 && updatedHabmins[index] === 0) {
+    if (updatedHabPeriod[index] === 0) {
       const updatedHabits = [...habits];
       updatedHabits.splice(index, 1);
 
