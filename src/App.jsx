@@ -44,7 +44,7 @@ function App() {
     const updatedHabPeriod = [...habPeriod];
 
     if (updatedHabmins[index] > 0) {
-      updatedHabmins[index] -= updatedHabmins;
+      updatedHabmins[index];
     }
     if (updatedHabPeriod[index] > 0) {
       updatedHabPeriod[index] -= 1;
